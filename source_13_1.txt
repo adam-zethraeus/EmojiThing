@@ -1,0 +1,5 @@
+https://unicode.org/Public/emoji/13.1/emoji-sequences.txt
+https://unicode.org/Public/emoji/13.1/emoji-zwj-sequences.txt
+https://unicode.org/Public/emoji/13.1/emoji-test.txt
+https://unicode.org/Public/13.0.0/ucd/emoji/emoji-data.txt
+https://unicode.org/Public/13.0.0/ucd/emoji/emoji-variation-sequences.txt
