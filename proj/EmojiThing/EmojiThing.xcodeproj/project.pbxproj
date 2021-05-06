@@ -17,8 +17,8 @@
 		7ED9F98626433AE100489169 /* annotations_derived.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7ED9F98426433AE100489169 /* annotations_derived.xml */; };
 		7ED9F98826433B3600489169 /* annotations_en.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7ED9F98726433B3600489169 /* annotations_en.xml */; };
 		7ED9F98926433B3600489169 /* annotations_en.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7ED9F98726433B3600489169 /* annotations_en.xml */; };
-		7ED9F99226433EA000489169 /* XMLTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED9F99126433EA000489169 /* XMLTest.swift */; };
-		7ED9F993264349BB00489169 /* XMLTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED9F99126433EA000489169 /* XMLTest.swift */; };
+		7ED9F99226433EA000489169 /* AnnotationsReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED9F99126433EA000489169 /* AnnotationsReader.swift */; };
+		7ED9F993264349BB00489169 /* AnnotationsReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED9F99126433EA000489169 /* AnnotationsReader.swift */; };
 		7ED9F99F2643510800489169 /* SwiftyXMLParser.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED9F99C264350A000489169 /* SwiftyXMLParser.xcframework */; };
 		7ED9F9A02643510800489169 /* SwiftyXMLParser.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED9F99C264350A000489169 /* SwiftyXMLParser.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7ED9F9A22643510E00489169 /* SwiftyXMLParser.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED9F99C264350A000489169 /* SwiftyXMLParser.xcframework */; };
@@ -61,7 +61,7 @@
 		7ED9F974264339D500489169 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		7ED9F98426433AE100489169 /* annotations_derived.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = annotations_derived.xml; sourceTree = "<group>"; };
 		7ED9F98726433B3600489169 /* annotations_en.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = annotations_en.xml; sourceTree = "<group>"; };
-		7ED9F99126433EA000489169 /* XMLTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLTest.swift; sourceTree = "<group>"; };
+		7ED9F99126433EA000489169 /* AnnotationsReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationsReader.swift; sourceTree = "<group>"; };
 		7ED9F99C264350A000489169 /* SwiftyXMLParser.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SwiftyXMLParser.xcframework; path = Carthage/Build/SwiftyXMLParser.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,7 +101,7 @@
 		7ED9F961264339D200489169 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				7ED9F99126433EA000489169 /* XMLTest.swift */,
+				7ED9F99126433EA000489169 /* AnnotationsReader.swift */,
 				7ED9F962264339D200489169 /* EmojiThingApp.swift */,
 				7ED9F963264339D200489169 /* ContentView.swift */,
 				7ED9F964264339D400489169 /* Assets.xcassets */,
@@ -248,7 +248,7 @@
 			files = (
 				7ED9F977264339D500489169 /* ContentView.swift in Sources */,
 				7ED9F975264339D500489169 /* EmojiThingApp.swift in Sources */,
-				7ED9F99226433EA000489169 /* XMLTest.swift in Sources */,
+				7ED9F99226433EA000489169 /* AnnotationsReader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +258,7 @@
 			files = (
 				7ED9F978264339D500489169 /* ContentView.swift in Sources */,
 				7ED9F976264339D500489169 /* EmojiThingApp.swift in Sources */,
-				7ED9F993264349BB00489169 /* XMLTest.swift in Sources */,
+				7ED9F993264349BB00489169 /* AnnotationsReader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
