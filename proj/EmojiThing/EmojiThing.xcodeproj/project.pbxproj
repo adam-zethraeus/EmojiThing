@@ -23,6 +23,8 @@
 		7ED9F9A02643510800489169 /* SwiftyXMLParser.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED9F99C264350A000489169 /* SwiftyXMLParser.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7ED9F9A22643510E00489169 /* SwiftyXMLParser.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED9F99C264350A000489169 /* SwiftyXMLParser.xcframework */; };
 		7ED9F9A32643510E00489169 /* SwiftyXMLParser.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED9F99C264350A000489169 /* SwiftyXMLParser.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7ED9F9AC2643921F00489169 /* trie.json in Resources */ = {isa = PBXBuildFile; fileRef = 7ED9F9AB2643921F00489169 /* trie.json */; };
+		7ED9F9AD2643921F00489169 /* trie.json in Resources */ = {isa = PBXBuildFile; fileRef = 7ED9F9AB2643921F00489169 /* trie.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -63,6 +65,7 @@
 		7ED9F98726433B3600489169 /* annotations_en.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = annotations_en.xml; sourceTree = "<group>"; };
 		7ED9F99126433EA000489169 /* AnnotationsReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationsReader.swift; sourceTree = "<group>"; };
 		7ED9F99C264350A000489169 /* SwiftyXMLParser.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SwiftyXMLParser.xcframework; path = Carthage/Build/SwiftyXMLParser.xcframework; sourceTree = "<group>"; };
+		7ED9F9AB2643921F00489169 /* trie.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = trie.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,7 @@
 		7ED9F95C264339D200489169 = {
 			isa = PBXGroup;
 			children = (
+				7ED9F9AB2643921F00489169 /* trie.json */,
 				7ED9F98726433B3600489169 /* annotations_en.xml */,
 				7ED9F98426433AE100489169 /* annotations_derived.xml */,
 				7ED9F961264339D200489169 /* Shared */,
@@ -224,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7ED9F98526433AE100489169 /* annotations_derived.xml in Resources */,
+				7ED9F9AC2643921F00489169 /* trie.json in Resources */,
 				7ED9F98826433B3600489169 /* annotations_en.xml in Resources */,
 				7ED9F979264339D500489169 /* Assets.xcassets in Resources */,
 			);
@@ -234,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7ED9F98626433AE100489169 /* annotations_derived.xml in Resources */,
+				7ED9F9AD2643921F00489169 /* trie.json in Resources */,
 				7ED9F98926433B3600489169 /* annotations_en.xml in Resources */,
 				7ED9F97A264339D500489169 /* Assets.xcassets in Resources */,
 			);
