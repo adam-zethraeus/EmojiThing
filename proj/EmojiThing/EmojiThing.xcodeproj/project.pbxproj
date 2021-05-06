@@ -19,12 +19,10 @@
 		7ED9F98926433B3600489169 /* annotations_en.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7ED9F98726433B3600489169 /* annotations_en.xml */; };
 		7ED9F99226433EA000489169 /* AnnotationsReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED9F99126433EA000489169 /* AnnotationsReader.swift */; };
 		7ED9F993264349BB00489169 /* AnnotationsReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED9F99126433EA000489169 /* AnnotationsReader.swift */; };
-		7ED9F99F2643510800489169 /* SwiftyXMLParser.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED9F99C264350A000489169 /* SwiftyXMLParser.xcframework */; };
-		7ED9F9A02643510800489169 /* SwiftyXMLParser.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED9F99C264350A000489169 /* SwiftyXMLParser.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7ED9F9A22643510E00489169 /* SwiftyXMLParser.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED9F99C264350A000489169 /* SwiftyXMLParser.xcframework */; };
-		7ED9F9A32643510E00489169 /* SwiftyXMLParser.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED9F99C264350A000489169 /* SwiftyXMLParser.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7ED9F9AC2643921F00489169 /* trie.json in Resources */ = {isa = PBXBuildFile; fileRef = 7ED9F9AB2643921F00489169 /* trie.json */; };
 		7ED9F9AD2643921F00489169 /* trie.json in Resources */ = {isa = PBXBuildFile; fileRef = 7ED9F9AB2643921F00489169 /* trie.json */; };
+		F732027926446568004D9259 /* SwiftyXMLParser.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F732027826446568004D9259 /* SwiftyXMLParser.xcframework */; };
+		F732027A26446568004D9259 /* SwiftyXMLParser.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F732027826446568004D9259 /* SwiftyXMLParser.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,7 +32,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				7ED9F9A02643510800489169 /* SwiftyXMLParser.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,7 +42,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				7ED9F9A32643510E00489169 /* SwiftyXMLParser.xcframework in Embed Frameworks */,
+				F732027A26446568004D9259 /* SwiftyXMLParser.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,8 +61,8 @@
 		7ED9F98426433AE100489169 /* annotations_derived.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = annotations_derived.xml; sourceTree = "<group>"; };
 		7ED9F98726433B3600489169 /* annotations_en.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = annotations_en.xml; sourceTree = "<group>"; };
 		7ED9F99126433EA000489169 /* AnnotationsReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationsReader.swift; sourceTree = "<group>"; };
-		7ED9F99C264350A000489169 /* SwiftyXMLParser.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SwiftyXMLParser.xcframework; path = Carthage/Build/SwiftyXMLParser.xcframework; sourceTree = "<group>"; };
 		7ED9F9AB2643921F00489169 /* trie.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = trie.json; sourceTree = "<group>"; };
+		F732027826446568004D9259 /* SwiftyXMLParser.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SwiftyXMLParser.xcframework; path = Carthage/Build/SwiftyXMLParser.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +70,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7ED9F99F2643510800489169 /* SwiftyXMLParser.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7ED9F9A22643510E00489169 /* SwiftyXMLParser.xcframework in Frameworks */,
+				F732027926446568004D9259 /* SwiftyXMLParser.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +138,7 @@
 		7ED9F99426434BB000489169 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7ED9F99C264350A000489169 /* SwiftyXMLParser.xcframework */,
+				F732027826446568004D9259 /* SwiftyXMLParser.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -388,7 +384,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NPB653YYZQ;
+				DEVELOPMENT_TEAM = QC68T7ZF53;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -410,7 +406,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NPB653YYZQ;
+				DEVELOPMENT_TEAM = QC68T7ZF53;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -435,7 +431,7 @@
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = NPB653YYZQ;
+				DEVELOPMENT_TEAM = QC68T7ZF53;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = macOS/Info.plist;
@@ -459,7 +455,7 @@
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = NPB653YYZQ;
+				DEVELOPMENT_TEAM = QC68T7ZF53;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = macOS/Info.plist;

@@ -3,12 +3,12 @@ import SwiftyXMLParser
 
 
 class TrieNode: Codable {
-    let c: String
+    let char: String
     init(char: String) {
-        self.c = char
+        self.char = char
     }
-    var e = [String]()
-    var n = [String: TrieNode]()
+    var emoji = [String]()
+    var next = [String: TrieNode]()
 }
 
 class AnnotationsReader {
@@ -32,13 +32,12 @@ class AnnotationsReader {
 
     func trie() -> TrieNode {
         func buildTrie(on parent: inout TrieNode, string: String, emoji: String) {
-            guard string.count > 0 else { return }
             var tail = string
             let head = String(tail.removeFirst())
-            var node = parent.n[head] ?? TrieNode(char: head)
-            parent.n[head]  = node
+            var node = parent.next[head] ?? TrieNode(char: head)
+            parent.next[head]  = node
             if tail.count == 0 {
-                node.e.append(emoji)
+                node.emoji.append(emoji)
                 return
             }
             buildTrie(on: &node, string: tail, emoji: emoji)

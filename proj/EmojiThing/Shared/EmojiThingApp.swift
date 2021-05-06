@@ -16,7 +16,7 @@ struct EmojiThingApp: App {
                 let trie = xmlTest.trie()
                 let jsonData = try! JSONEncoder().encode(trie)
                 let jsonString = String(data: jsonData, encoding: .utf8)!
-                print(jsonString)
+//                print(jsonString)
                 let fileURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
                     .first!
                     .appendingPathComponent("trie.json")
