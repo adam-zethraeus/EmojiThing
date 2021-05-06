@@ -13,4 +13,15 @@ struct TrieNode: Codable {
 let jsonData = jsonTrie.data(using: .utf8)!
 let root = try! JSONDecoder().decode(TrieNode.self, from: jsonData)
 
-print(root)
+let args: [String] = {
+	if CommandLine.arguments.count > 1 {
+		return CommandLine.arguments[1...].map{$0}
+	} else {
+		var stdIn = ""
+		while let line = readLine(strippingNewline: true) {
+			stdIn += line
+		}
+		return stdIn.split(separator: " ").map{String($0)}
+	}
+}()
+
